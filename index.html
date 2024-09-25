@@ -1,0 +1,51 @@
+<!DOCTYPE html
+<html lang="en">
+  <head>
+    <title>Free Code Camp Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Online Survey Form</h1>
+    <p id="description">This survey will take only 2 minutes to complete. This is a sample survey form.</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label" class="label">Name:
+        <input id="name" type="text" required placeholder="Enter your name">
+      </label>
+      <label id="email-label" class="label">Email:
+        <input id="email" type="email" required placeholder="Enter your valid email id">
+      </label>
+      <label id="number-label" class="label">Age:
+        <input id="number" type="number" min="10" max="80" placeholder="Enter a number in between 10 to 80">
+      </label>
+        <label id="occupation-label" class="label">Please select your occupation:
+        <select id="dropdown">
+          <option>Student</option>
+          <option>Govt. Job</option>
+          <option>Private Job</option>
+          <option>Business</option>
+          <option>Self-employed</option>
+          <option>Entrepreneur</option>
+          <option>Housewife</option>
+          <option>Farmer</option>
+        </select>
+      </label>
+      <label id="gender-label" class="label">Gender:
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="trans">Transgender
+      </label>
+      <label id="qulfn-label" class="label">Qualifications:
+        <input type="checkbox" name="qulfn" value="hslc">HSLC
+        <input type="checkbox" name="qulfn" value="hs">HS
+        <input type="checkbox" name="qulfn" value="graduate">Graduate
+        <input type="checkbox" name="qulfn" value="pg">Post Graduate
+        <input type="checkbox" name="qulfn" value="phd">PhD
+      </label>
+      <label id="remarks-label" class="label">Remarks:
+      <textarea></textarea>
+      </label>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
