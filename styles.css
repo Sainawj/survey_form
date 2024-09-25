@@ -1,0 +1,97 @@
+body {
+  background-color: #133;
+  background-image: url("https://media.istockphoto.com/photos/wild-grass-in-the-mountains-at-sunset-picture-id1322277517?b=1&k=20&m=1322277517&s=170667a&w=0&h=BSN_5NMGYJY2qPwI3_vOcEXVSX_hmGBOmXebMBxTLX0=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  background-blend-mode: multiply;
+  font-family: Arial;
+  font-size: 18px;
+  margin: 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#title {
+  font-size: 35px;
+  margin: 30px 20px;
+}
+
+#description {
+  color: #bbb;
+  letter-spacing: 1.5;
+  text-align: justify;
+  margin: auto 20px;
+}
+
+fieldset {
+  border-style: none;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#occupation-label,
+#remarks-label,
+#gender-label,
+#qulfn-label {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 30px;
+  background-color: #eee3;
+  margin: 20 auto;
+  padding: 15;
+  border-radius: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 400px;
+  min-height: 35px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 6px;
+  border-style: none;
+}
+
+/* #gender-label {
+    width: 100%;
+    display: block;
+    min-height: 40px;
+  } */
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: 10px;
+  min-height: 0px;
+  margin: 20px;
+  transform: scale(3);
+}
+
+#remarks-label textarea {
+  width: 100%;
+  border-radius: 6px;
+  border-style: none;
+  min-height: 150px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  background-color: #386;
+  font-size: 18px;
+  padding: 10px;
+  min-width: 100px;
+  border-style: none;
+  border-radius: 6px;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #3a7;
+  cursor: pointer;
+}
